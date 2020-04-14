@@ -1,0 +1,26 @@
+{
+  "name": "protractortypescriptframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor temp/conf.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "Chirag",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cucumber": "6.0.1",
+    "@types/jasmine": "3.5.10",
+    "@types/jasminewd2": "2.0.8",
+    "@types/node": "13.9.5",
+    "cucumber": "6.0.5",
+    "jasmine": "3.5.0",
+    "protractor": "^5.4.3",
+    "protractor-cucumber-framework": "6.2.1",
+    "ts-node": "8.8.1",
+    "typescript": "^3.8.3"
+  }
+}
